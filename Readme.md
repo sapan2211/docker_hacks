@@ -1,9 +1,15 @@
-#########################################
-Pre-Reqs
+
+------------
+
+
+### **Pre-Reqs**
 1) Docker is installed and running on your system
 
-#########################################
-Basic Docker commands
+
+------------
+
+
+### **Basic Docker commands**
 1) List all running containers
 docker ps
 2) List all containers including non running containers
@@ -28,8 +34,12 @@ docker run <image:tag> <shell(/bin/sh)>
 docker exec -it <running/stopped-container-name> <shell(/bin/bash)>
 9) logs
 docker logs <name>
-#########################################
-Useful containerization commands
+
+
+------------
+
+
+### **Useful containerization commands**
 1) Login to account
 docker login
 2) Build container image using Dockerfile in local folder
@@ -42,4 +52,6 @@ docker tag <old-name:version> <newname:version>
 docker push <name:version-tag>
 6) create image from container (useful when customizing image manually)
 docker commit <container> <new-name:version>
-#########################################
+
+
+------------
